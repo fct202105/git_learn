@@ -14,13 +14,22 @@
 - 新建分支： `git checkout -b branchName`
 - 添加内容到索引： `git add .`
 - 记录修改： `git commit -m "relatedInstructions"`
+- 修改记录：`git commit --amend`
 - 推送远程仓库： `git push warehouseName branchName`
 - 下拉远程仓库更新本地仓库： `git pull`
 - 切换分支： `git checkout branchName`
 - 合并分支： `git merge branchName`
+- 删除分支：`git branch -D branchName` 
 
 ## 学习链接
 
 1. [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_CN)
 2. [Git Book](https://git-scm.com/book/zh/v2)
 3. [Git教程 廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600)
+4. [GitHub入门与实践.pdf（下载）](https://next.a-boat.cn:2021/s/sARFF5SksFbs2mm)
+
+## 补充
+
+1. [Git仓库瘦身](https://www.cnblogs.com/bushuosx/p/10965485.html)
+2. [添加合著者](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)
+3. [Git Reset 三种模式](https://www.jianshu.com/p/c2ec5f06cf1a)
